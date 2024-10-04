@@ -1,0 +1,7 @@
+print("enter name of market")
+nameofmarket=input()
+print("grocery lists")
+grocerylist=input()
+print("item price")
+itemprice=input()
+print("details" + ":" + " " + nameofmarket + " " + grocerylist + " " + itemprice)
