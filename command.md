@@ -11,9 +11,15 @@ mv file1 file2 folder1
 # command to create another folder
 mkdir folder2
 # command to remove a file
-rm -r file1
+rm -rf file1
 # command to remove a folder
-rm -r -f folder
+rm -rf folder
+# command to go back or unstage a commit in your repository
+git reset commitname
+# create a new branch
+git branch branchname
+# to switch to the new branch
+git checkout newbranchname
 # command to use vim
 vi file1
 # to save a file in vim
@@ -30,6 +36,8 @@ click escape button
 press (:qa!)
 #_____________________________________________________________
 # git command
+# to get the entire hitory of a project
+git log
 # to get untrack files
 git status
 # git command to add files
