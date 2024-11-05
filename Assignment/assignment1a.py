@@ -6,7 +6,7 @@ def collect_user_details():
     phone_number = input("Please enter your phone number: ")
 
     # Print the collected details
-    print("\nCollected Details:")
+    print("\ngeeCollected Details:")
     print(f"Name: {name}")
     print(f"Designation: {designation}")
     print(f"Email: {email}")
