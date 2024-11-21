@@ -46,3 +46,7 @@ git add .
 git commit -m "comment on what we did today"
 # git command to push your code to repository
 git push
+# git command to change the remote repo url for pushing changes in a git repo
+git remote set-url --push origin https://github.com/alokaneunice/python-flask-sqlite2.git
+# to check if remote name or origin exists
+git remote -v
